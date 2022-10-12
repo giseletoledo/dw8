@@ -1,3 +1,4 @@
+import 'package:copa_album_app/app/core/styles/button_styles.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -21,7 +22,22 @@ class SplashPage extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Splash Screen'),
         ),
-        body: Container(),
+        body: Center(
+          child: Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {},
+                style: ButtonStyles.i.yellowButton,
+                child: const Text('Salvar'),
+              ),
+              OutlinedButton(
+                onPressed: () {},
+                style: ButtonStyles.i.primaryOutlineButton,
+                child: const Text('Salvar'),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
