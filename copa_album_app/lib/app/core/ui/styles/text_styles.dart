@@ -1,4 +1,4 @@
-import 'package:copa_album_app/app/core/styles/colors_app.dart';
+import 'package:copa_album_app/app/core/ui/styles/colors_app.dart';
 import 'package:flutter/material.dart';
 
 class TextStyles {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../styles/colors_app.dart';
-import '../styles/text_styles.dart';
+import '../ui/styles/colors_app.dart';
+import '../ui/styles/text_styles.dart';
 
 class ThemeConfig {
   // Avoid generate another intance

@@ -1,4 +1,6 @@
 import 'package:copa_album_app/app/core/ui/styles/button_styles.dart';
+import 'package:copa_album_app/app/core/ui/styles/text_styles.dart';
+import 'package:copa_album_app/app/core/ui/widgets/button.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -24,6 +26,11 @@ class SplashPage extends StatelessWidget {
               child: const Text('Salvar'),
             ),
             const TextField(),
+            Button(
+                onPressed: () {},
+                style: ButtonStyles.i.primaryButton,
+                labelStyle: context.textStyles.textPrimaryFontBold,
+                label: 'Salvar')
           ],
         ),
       ),
