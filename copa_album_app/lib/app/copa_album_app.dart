@@ -1,3 +1,4 @@
+import 'package:copa_album_app/app/core/theme/theme_config.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/splash/splash_page.dart';
@@ -10,6 +11,7 @@ class CopaAlbumApp extends StatelessWidget {
     return MaterialApp(
       title: 'Álbum da copa 2022',
       debugShowCheckedModeBanner: false,
+      theme: ThemeConfig.theme,
       routes: {
         '/': (_) => const SplashPage(),
       },
