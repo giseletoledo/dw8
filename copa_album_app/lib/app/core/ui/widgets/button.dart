@@ -1,8 +1,6 @@
 import 'package:copa_album_app/app/core/ui/styles/button_styles.dart';
 import 'package:copa_album_app/app/core/ui/styles/text_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class Button extends StatelessWidget {
   final ButtonStyle style;
@@ -13,7 +11,7 @@ class Button extends StatelessWidget {
   final VoidCallback? onPressed;
   final bool outline;
 
-  Button(
+  const Button(
       {super.key,
       required this.style,
       required this.labelStyle,
