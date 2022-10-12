@@ -51,7 +51,7 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images
+    - assets/images/
     - assets/images/flags/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -84,13 +84,13 @@ flutter:
           weight: 800
     - family: MPlus1P
       fonts:
-        - asset: assets/fonts/MPlus1p/MPlus1p-Regular.ttf
+        - asset: assets/fonts/M_PLUS_1p/MPLUS1p-Regular.ttf
           weight: 400
-        - asset: assets/fonts/MPlus1p/MPlus1p-Medium.ttf
+        - asset: assets/fonts//M_PLUS_1p/MPLUS1p-Medium.ttf
           weight: 600
-        - asset: assets/fonts/MPlus1p/MPlus1p-Bold.ttf
+        - asset: assets/fonts//M_PLUS_1p/MPLUS1p-Bold.ttf
           weight: 700
-        - asset: assets/fonts/MPlus1p/MPlus1p-ExtraBold.ttf
+        - asset: assets/fonts//M_PLUS_1p/MPLUS1p-ExtraBold.ttf
           weight: 800
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
