@@ -1,4 +1,4 @@
-import 'package:copa_album_app/app/core/styles/colors_app.dart';
+import 'package:copa_album_app/app/core/ui/styles/colors_app.dart';
 import 'package:flutter/material.dart';
 
 import 'text_styles.dart';
@@ -48,4 +48,8 @@ class ButtonStyles {
       side: BorderSide(color: ColorsApp.i.primary),
       textStyle:
           TextStyles.i.textSecondaryFontExtraBold.copyWith(fontSize: 14));
+}
+
+extension ButtonStylesExtensions on BuildContext {
+  ButtonStyles get buttonStyles => ButtonStyles.i;
 }

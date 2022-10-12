@@ -1,4 +1,4 @@
-import 'package:copa_album_app/app/core/styles/button_styles.dart';
+import 'package:copa_album_app/app/core/ui/styles/button_styles.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
