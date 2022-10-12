@@ -12,6 +12,20 @@ class RoundedButtton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(onPressed: onPressed, icon: Icon(icon));
+    return Material(
+      elevation: 3,
+      shadowColor: Colors.grey.withOpacity(0.2),
+      shape: const CircleBorder(),
+      child: DecoratedBox(
+        decoration: const BoxDecoration(
+          shape: BoxShape.circle,
+          color: Colors.white,
+        ),
+        child: IconButton(
+          onPressed: onPressed,
+          icon: Icon(icon),
+        ),
+      ),
+    );
   }
 }
