@@ -4,8 +4,6 @@ import 'package:copa_album_app/app/pages/home/home_page.dart';
 import 'package:copa_album_app/app/pages/splash/splash_route.dart';
 import 'package:flutter/material.dart';
 
-import 'pages/splash/splash_page.dart';
-
 class CopaAlbumApp extends StatelessWidget {
   const CopaAlbumApp({super.key});
 
