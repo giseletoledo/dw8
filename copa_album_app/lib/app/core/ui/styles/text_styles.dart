@@ -35,6 +35,9 @@ class TextStyles {
   TextStyle get titleWhite =>
       textPrimaryFontBold.copyWith(fontSize: 22, color: Colors.white);
 
+  TextStyle get titleBlack =>
+      textPrimaryFontBold.copyWith(fontSize: 22, color: Colors.black);
+
   //secondary font
   TextStyle get textSecondaryFontRegular =>
       TextStyle(fontWeight: FontWeight.normal, fontFamily: secondaryFont);

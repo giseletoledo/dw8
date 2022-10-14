@@ -49,7 +49,7 @@ class _SplashPageState extends SplashViewImpl {
                       width: MediaQuery.of(context).size.width * .9,
                       style: context.buttonStyles.yellowButton,
                       labelStyle: context
-                          .textStyles.lextSecondaryFontExtraBoldPrimaryColor,
+                          .textStyles.textSecondaryFontExtraBoldPrimaryColor,
                       label: 'Acessar'),
                 ),
               ),

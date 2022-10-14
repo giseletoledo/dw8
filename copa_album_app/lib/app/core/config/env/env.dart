@@ -6,7 +6,7 @@ class Env {
   // Avoid more than one instance
   Env._();
 
-//abreviação de instance
+//abreviação de instance i
   static Env get i {
     _instance ??= Env._();
     return _instance!;

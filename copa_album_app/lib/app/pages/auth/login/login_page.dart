@@ -1,4 +1,7 @@
+import 'package:copa_album_app/app/core/ui/styles/button_styles.dart';
+import 'package:copa_album_app/app/core/ui/styles/colors_app.dart';
 import 'package:copa_album_app/app/core/ui/styles/text_styles.dart';
+import 'package:copa_album_app/app/core/ui/widgets/button.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -33,7 +36,42 @@ class LoginPage extends StatelessWidget {
                         style: context.textStyles.titleWhite,
                       ),
                     ),
-                  )
+                  ),
+                  TextFormField(
+                    decoration: const InputDecoration(
+                      floatingLabelBehavior: FloatingLabelBehavior.never,
+                      label: Text('E-mail'),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  TextFormField(
+                    decoration: const InputDecoration(
+                      floatingLabelBehavior: FloatingLabelBehavior.never,
+                      label: Text('Senha'),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 6.0),
+                    child: Text(
+                      'Esqueceu a senha?',
+                      style: context.textStyles.textSecondaryFontMedium
+                          .copyWith(color: context.colors.yellow, fontSize: 14),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 25,
+                  ),
+                  Button(
+                      onPressed: () {},
+                      style: context.buttonStyles.yellowButton,
+                      labelStyle: context
+                          .textStyles.textSecondaryFontExtraBoldPrimaryColor,
+                      label: 'Entrar')
                 ]))
               ],
             )),
