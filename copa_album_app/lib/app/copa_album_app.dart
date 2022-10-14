@@ -1,6 +1,7 @@
 import 'package:copa_album_app/app/core/rest/custom_dio.dart';
 import 'package:copa_album_app/app/core/theme/theme_config.dart';
 import 'package:copa_album_app/app/pages/auth/login/login_page.dart';
+import 'package:copa_album_app/app/pages/auth/register/register_route.dart';
 import 'package:copa_album_app/app/pages/home/home_page.dart';
 import 'package:copa_album_app/app/pages/splash/splash_route.dart';
 import 'package:copa_album_app/app/repository/auth/auth_repository.dart';
@@ -25,6 +26,7 @@ class CopaAlbumApp extends StatelessWidget {
         routes: {
           '/': (_) => const SplashRoute(),
           '/auth/login': (_) => const LoginPage(),
+          '/auth/register': (_) => const RegisterRoute(),
           '/home': (_) => const HomePage(),
         },
       ),

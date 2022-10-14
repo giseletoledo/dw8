@@ -37,6 +37,7 @@ dependencies:
   flutter_getit: ^1.2.1
   loading_animation_widget: ^1.2.0+3
   top_snackbar_flutter: ^2.1.1
+  validatorless: ^1.2.3
 
 dev_dependencies:
   flutter_lints: ^2.0.0
