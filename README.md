@@ -26,3 +26,13 @@ App que controla as figurinhas que faltam para completar o album da copa usando 
 <img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665607338.png" alt="Screenshot da splash screen do app">
 </p>
 </div>
+
+## Formulários de login e cadastro de usuário
+
+<div style="display:flex;">
+<p align="center">
+<img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665782089.png" alt="Screenshot da splash screen do app">
+<img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665782160.png" alt="Screenshot da splash screen do app">
+<img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665782170.png" alt="Screenshot da splash screen do app">
+</p>
+</div>
