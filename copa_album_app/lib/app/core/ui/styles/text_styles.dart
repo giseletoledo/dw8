@@ -51,7 +51,7 @@ class TextStyles {
   TextStyle get labelTextField => textSecondaryFontRegular.copyWith(
         color: ColorsApp.i.greyDart,
       );
-  TextStyle get lextSecondaryFontExtraBoldPrimaryColor =>
+  TextStyle get textSecondaryFontExtraBoldPrimaryColor =>
       textSecondaryFontExtraBold.copyWith(color: ColorsApp.i.primary);
 }
 
