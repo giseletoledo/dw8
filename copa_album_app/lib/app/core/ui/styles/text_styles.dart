@@ -32,6 +32,9 @@ class TextStyles {
   TextStyle get textPrimaryFontExtraBold =>
       TextStyle(fontWeight: FontWeight.w800, fontFamily: primaryFont);
 
+  TextStyle get titleWhite =>
+      textPrimaryFontBold.copyWith(fontSize: 22, color: Colors.white);
+
   //secondary font
   TextStyle get textSecondaryFontRegular =>
       TextStyle(fontWeight: FontWeight.normal, fontFamily: secondaryFont);
