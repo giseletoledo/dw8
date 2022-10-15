@@ -1,7 +1,6 @@
 import 'package:copa_album_app/app/core/ui/styles/text_styles.dart';
 import 'package:copa_album_app/app/core/ui/widgets/button.dart';
 import 'package:copa_album_app/app/pages/auth/register/presenter/register_presenter.dart';
-import 'package:copa_album_app/app/pages/auth/register/presenter/register_presenter_impl.dart';
 import 'package:flutter/material.dart';
 import 'package:validatorless/validatorless.dart';
 
