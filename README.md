@@ -35,7 +35,7 @@ App criada durante a Dart week 8, faz o controle das figurinhas que faltam para 
 <div style="display:flex;">
 <p align="center">
 <img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665782089.png" alt="Screenshot da splash screen do app">
-<img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665782160.png" alt="Screenshot da splash screen do app">
+<img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665857148.png" alt="Screenshot da splash screen do app">
 <img width="25%" src="https://github.com/giseletoledo/dw8/blob/main/Screenshot_1665782170.png" alt="Screenshot da splash screen do app">
 </p>
 </div>
